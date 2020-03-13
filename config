@@ -1,0 +1,8 @@
+ACCESS_TOKEN=vna1pck8zir6e170ytu2v3gstu90dz13
+
+MAGENTO_API_HOST=http://magesuite.magestage.net
+
+USERNAME=MagenableTest
+PASSWORD=WeTestAPI
+
+JWT_SECRET_KEY=secret

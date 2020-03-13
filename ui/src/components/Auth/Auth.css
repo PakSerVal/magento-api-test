@@ -1,0 +1,13 @@
+.Auth {
+    max-width:     400px;
+    margin:        auto;
+    border:        1px solid #CCC;
+    border-radius: 4px;
+    padding:       20px;
+}
+
+.Error {
+    color:         red;
+    margin-bottom: 10px;
+    font-weight:   bold;
+}

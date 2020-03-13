@@ -1,0 +1,69 @@
+.Customers {
+    max-width: 800px;
+    margin:    20px auto;
+}
+
+.Customers input {
+    border-radius: 5px;
+    display:       block;
+    box-sizing:    border-box;
+    border:        1px solid #ccc;
+    padding:       10px;
+    outline:       none;
+    transition:    all 300ms ease-in-out;
+    width:         70%;
+    margin:        auto;
+    height:        50px;
+    font-size:     20px;
+}
+
+.Customers input:focus {
+    border-color: #00BFFF;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+.Title {
+    text-align: center;
+}
+
+.CustomersList {
+    display:    flex;
+    flex-wrap:  wrap;
+    margin-top: 20px;
+    border:     1px solid #CCC;
+}
+
+.Row {
+    display:       flex;
+    flex-basis:    100%;
+    padding:       10px 0;
+    border-bottom: 1px solid #CCC;
+}
+
+.Row:last-child {
+    border: none;
+}
+
+.Column {
+    width:         25%;
+    text-align:    center;
+    text-overflow: ellipsis;
+    overflow:      hidden;
+}
+
+.ColumnHeader {
+    width:       25%;
+    font-weight: bold;
+    text-align:  center;
+}
+
+.Loader {
+    display:         flex;
+    justify-content: center;
+    align-items:     center;
+    margin-top:      30px;
+}
+
+.EmptyResult {
+    text-align: center;
+}
